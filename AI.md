@@ -9,3 +9,15 @@ Böylece Makine öğrenmesi için gerekli verilerin uzayı sayısal karşılıkl
 
 > ### Kaynak Önerileri
 - [IBM-Vector Embedding](https://www.ibm.com/think/topics/vector-embedding)
+- [Vector Basics](https://www.mathsisfun.com/algebra/vectors.html)
+
+> ### Kaynak Görselleri
+- ![ML ve Vector Embedding](image.png)
+- ![Vector Search Quality](image-1.png)
+
+## Vector Databases (Vektör Veritabanları)
+![MEsafe Ölçümü](image-2.png)
+![Daha Fazla Bilgi İçin](./Vector_Databases/Vector_DB.md)
+
+## RAG's
+![Searching with and without RAG's](image-3.png)
