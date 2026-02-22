@@ -4,6 +4,15 @@
 
 ---
 
+## Benim Çıkarımım
+> RAG'ler AI destekli sorgu ve aramalarda LLM' lerin güncel olamadığı ve kapsam alanına alamadığı verilerin yani daha güncel ve bağlama yakın ama LLM'in sunamayacağı verileri süreç içinde LLM ile paylaştığı ve bu verileri LLM cevabı ike harmanladıktan sonra kullanıcıya daha tutarlı, güncel ve kapsamlı bilgi sunabilmeyi sağlayan bir yöntemdir.
+
+- Özet olarak 
+>- RAG yoksa: User Prompt -> LLM search -> Response From LLM
+>- RAG varsa: User Prompt [-> RAG ile güncel data kontrolü ve cevap oluşturma] -> Primary Output from RAG + LLM response -> Last Version of Response
+
+Böylece LLM lerin güncel olmayan fakat özgüvenli verdiği yanlış yönlendirme ve cevaplardan RAG lerin güncel veri kontrollerini LLM lerin serach verilerine ekleyip buna göre bağlam çıkarmasını sağlaması ile elde ettiğimiz çıktılar daha tutarlı güvenilir bir hale gelebiliyor. 
+
 ## Neden RAG'a İhtiyaç Var?
 
 Büyük dil modelleri (LLM) eğitildikten sonra bilgileri **dondurulur**. Bu iki temel probleme yol açar:
